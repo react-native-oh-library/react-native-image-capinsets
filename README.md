@@ -1,20 +1,13 @@
-# react-native-image-capinsets
-adds support for a similar functionality as `<Image capInsets={...} />` to android.
-behind the scenes it will generate a `NinePatchDrawable` and set as background for the android `ImageView`
+# @react-native-oh-tpl/react-native-image-capinsets
 
-## Installation
+This project is based on [react-native-image-capinsets](https://github.com/madsleejensen/react-native-image-capinsets)
 
-1. `npm i --save react-native-image-capinsets`
-2. `react-native link react-native-image-capinsets`
+## Documentation
 
+- [中文](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-image-capinsets.md)
 
-## Examples
+- [English](https://gitee.com/react-native-oh-library/usage-docs/blob/master/en/react-native-image-capinsets.md)
 
-```javascript
-import ImageCapInset from 'react-native-image-capinsets';
+## License
 
-<ImageCapInset
-  source={require('./bubble.png')}
-  capInsets={{ top: 8, right: 8, bottom: 8, left: 8 }}
-  />
-```
+This library is licensed under [The MIT License (MIT)](https://github.com/react-native-oh-library/react-native-image-capinsets/blob/partner-dev/LICENSE)
