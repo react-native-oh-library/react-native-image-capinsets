@@ -1,19 +1,14 @@
 {
-  "name": "react-native-image-capinsets",
+  "name": "@react-native-oh-tpl/react-native-image-capinsets",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/madsleejensen/react-native-image-capinsets.git"
+    "url": "https://github.com/react-native-oh-library/react-native-image-capinsets.git"
   },
-  "version": "0.5.0",
-  "description": "android support for Image `capInsets`",
-  "author": {
-    "name": "Mads Lee Jensen",
-    "email": "madsleejensen@gmail.com",
-    "url": "http://mads-lee.dk"
-  },
+  "version": "0.5.0-0.0.1",
+  "description": "support for Image `capInsets`",
   "license": "MIT",
-  "homepage": "https://github.com/madsleejensen/react-native-image-capinsets",
+  "homepage": "https://github.com/react-native-oh-library/react-native-image-capinsets",
   "keywords": [
     "capInsets",
     "9-patch",
