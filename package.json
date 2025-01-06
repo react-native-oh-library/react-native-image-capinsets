@@ -5,9 +5,26 @@
     "type": "git",
     "url": "https://github.com/react-native-oh-library/react-native-image-capinsets.git"
   },
-  "version": "0.5.0-0.0.1",
+  "version": "0.5.0",
   "description": "support for Image `capInsets`",
   "license": "MIT",
+  "scripts": {
+    "codegen-lib": "rm -rf ./harmony/rn_image_capinsets/src/main/cpp/generated && rm -rf ./harmony/rn_image_capinsets/src/main/ets/generated && react-native codegen-lib-harmony --no-safety-check --npm-package-name react-native-image-capinsets --cpp-output-path ./harmony/rn_image_capinsets/src/main/cpp/generated --ets-output-path ./harmony/rn_image_capinsets/src/main/ets/generated --arkts-components-spec-paths ./RNCImageCapInsetsNativeComponent.ts"
+  },
+  "harmony": {
+    "alias": "react-native-image-capinsets"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "react-native-image-capinsets": "0.5.0"
+  },
+  "devDependencies": {
+    "react-native-harmony-cli": "npm:@react-native-oh/react-native-harmony-cli@^0.0.27",
+    "@react-native-community/cli": "latest"
+  },
   "homepage": "https://github.com/react-native-oh-library/react-native-image-capinsets",
   "keywords": [
     "capInsets",
