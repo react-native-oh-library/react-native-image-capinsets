@@ -6,6 +6,7 @@ import {
   requireNativeComponent,
 } from 'react-native';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
+import RNCImageCapInset from './RCTImageCapInsetsNativeComponent'
 
 class ImageCapInset extends Component {
   render() {
@@ -20,7 +21,7 @@ class ImageCapInset extends Component {
 
     return (
       <View {...rest}>
-        <RCTImageCapInset
+        <RNCImageCapInset
           style={{position: 'absolute', top: 0, left: 0, bottom: 0, right: 0}}
           capInsets={capInsets}
           source={normalizedSource}
@@ -42,9 +43,5 @@ ImageCapInset.propTypes = {
     bottom: PropTypes.number,
   }),
 };
-
-const RCTImageCapInset = requireNativeComponent('RCTImageCapInset', {
-  propTypes: ImageCapInset.propTypes,
-});
 
 export default ImageCapInset;

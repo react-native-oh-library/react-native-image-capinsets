@@ -1,0 +1,9 @@
+{
+  "name": "rn_image_capinsets",
+  "version": "0.5.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {}
+}
