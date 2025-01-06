@@ -1,6 +1,6 @@
 {
-  "name": "rn_image_capinsets",
-  "version": "0.5.0",
+  "name": "@react-native-oh-tpl/react-native-image-capinsets",
+  "version": "0.5.0-0.0.1-rc.1",
   "description": "Please describe the basic information.",
   "main": "Index.ets",
   "author": "",

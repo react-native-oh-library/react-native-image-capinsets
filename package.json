@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/react-native-oh-library/react-native-image-capinsets.git"
   },
-  "version": "0.5.0",
+  "version": "0.5.0-0.0.1-rc.1",
   "description": "support for Image `capInsets`",
   "license": "MIT",
   "scripts": {

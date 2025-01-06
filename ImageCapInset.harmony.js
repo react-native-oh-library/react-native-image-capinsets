@@ -6,7 +6,7 @@ import {
   requireNativeComponent,
 } from 'react-native';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
-import RNCImageCapInset from './RCTImageCapInsetsNativeComponent'
+import RNCImageCapInset from './RNCImageCapInsetsNativeComponent'
 
 class ImageCapInset extends Component {
   render() {
